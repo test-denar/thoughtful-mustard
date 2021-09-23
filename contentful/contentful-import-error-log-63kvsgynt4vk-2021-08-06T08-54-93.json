@@ -1,0 +1,251 @@
+[
+  {
+    "ts": "2021-08-06T14:58:28.365Z",
+    "level": "error",
+    "error": {
+      "name": "InvalidEntry",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "63kvsgynt4vk"
+            }
+          },
+          "id": "63s8YSuEF2aZPBjvgSRGxG",
+          "type": "Entry",
+          "createdAt": "2021-08-06T14:56:30.140Z",
+          "updatedAt": "2021-08-06T14:56:30.140Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0kBqYmo88dYlNZrVsrlLj3"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0kBqYmo88dYlNZrVsrlLj3"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "section_hero"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "lorem-ipsum"
+          },
+          "section_id": {
+            "en-US": "lorem-ipsum"
+          },
+          "content": {
+            "en-US": "## Lorem ipsum\n\nLorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n- Lorem ipsum\n- dolor sit amet"
+          },
+          "image_alt": {
+            "en-US": "lorem-ipsum"
+          },
+          "titleColor": {
+            "en-US": "#0369A1"
+          },
+          "subtitleColor": {
+            "en-US": "lorem-ipsum"
+          },
+          "backgroundColorLeft": {
+            "en-US": "lorem-ipsum"
+          },
+          "backgroundColorRight": {
+            "en-US": "lorem-ipsum"
+          },
+          "imagePosition": {
+            "en-US": "lorem-ipsum"
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "in",
+              "value": "lorem-ipsum",
+              "expected": [
+                "right (or bottom)",
+                "left (or top)"
+              ],
+              "path": [
+                "fields",
+                "imagePosition",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/63kvsgynt4vk/environments/master/entries/63s8YSuEF2aZPBjvgSRGxG/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.6.43; feature space-import; sdk contentful-management.js/7.22.4; platform node.js/v12.20.0; os macOS/20.6.0;",
+            "Authorization": "Bearer ...I7vGk",
+            "user-agent": "node.js/v12.20.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "cb3d4a9ed1ab4efa638dd3d95c9e6e95"
+      }
+    }
+  },
+  {
+    "ts": "2021-08-06T14:58:33.250Z",
+    "level": "error",
+    "error": {
+      "name": "InvalidEntry",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "63kvsgynt4vk"
+            }
+          },
+          "id": "63s8YSuEF2aZPBjvgSRGxG",
+          "type": "Entry",
+          "createdAt": "2021-08-06T14:56:30.140Z",
+          "updatedAt": "2021-08-06T14:56:30.140Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0kBqYmo88dYlNZrVsrlLj3"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0kBqYmo88dYlNZrVsrlLj3"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "section_hero"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "lorem-ipsum"
+          },
+          "section_id": {
+            "en-US": "lorem-ipsum"
+          },
+          "content": {
+            "en-US": "## Lorem ipsum\n\nLorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n- Lorem ipsum\n- dolor sit amet"
+          },
+          "image_alt": {
+            "en-US": "lorem-ipsum"
+          },
+          "titleColor": {
+            "en-US": "#0369A1"
+          },
+          "subtitleColor": {
+            "en-US": "lorem-ipsum"
+          },
+          "backgroundColorLeft": {
+            "en-US": "lorem-ipsum"
+          },
+          "backgroundColorRight": {
+            "en-US": "lorem-ipsum"
+          },
+          "imagePosition": {
+            "en-US": "lorem-ipsum"
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "in",
+              "value": "lorem-ipsum",
+              "expected": [
+                "right (or bottom)",
+                "left (or top)"
+              ],
+              "path": [
+                "fields",
+                "imagePosition",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/63kvsgynt4vk/environments/master/entries/63s8YSuEF2aZPBjvgSRGxG/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.6.43; feature space-import; sdk contentful-management.js/7.22.4; platform node.js/v12.20.0; os macOS/20.6.0;",
+            "Authorization": "Bearer ...I7vGk",
+            "user-agent": "node.js/v12.20.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "3b0704777be29859bc0b3b9f80a60a84"
+      }
+    }
+  },
+  {
+    "ts": "2021-08-06T14:58:33.250Z",
+    "level": "error",
+    "error": "Could not publish the following entities: lorem-ipsum (63s8YSuEF2aZPBjvgSRGxG)"
+  }
+]
